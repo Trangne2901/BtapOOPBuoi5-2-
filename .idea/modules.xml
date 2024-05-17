@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdamvaEva/AdamvaEva.iml" filepath="$PROJECT_DIR$/AdamvaEva/AdamvaEva.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BatteryAndFlashLamp/BatteryAndFlashLamp.iml" filepath="$PROJECT_DIR$/BatteryAndFlashLamp/BatteryAndFlashLamp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Buoi6.iml" filepath="$PROJECT_DIR$/.idea/Buoi6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwitchAndBuld/SwitchAndBuld.iml" filepath="$PROJECT_DIR$/SwitchAndBuld/SwitchAndBuld.iml" />
+    </modules>
+  </component>
+</project>
