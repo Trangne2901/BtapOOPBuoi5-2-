@@ -1,27 +1,28 @@
 public class Apple {
     int weight;
-    boolean isEmpty;
 
     public Apple(int weight) {
         this.weight = weight;
-        this.isEmpty = false;
+
     }
 
-    public int getWeight() {
+    public int getWeight(int a) {
+        weight = a;
         return weight;
     }
     public  void decrease() {
-        if (this.isEmpty()) {
-            System.out.println("Táo ăn hết r");
-        } else {
+        if(this.isEmpty()){
+            System.out.println("Táo đã hết rồi");
+        }else {
             this.weight--;
         }
     }
 
     public boolean isEmpty() {
-
-            return isEmpty;
-
+        if(this.weight <= 0){
+            return true;
+        }else {
+            return false;
+        }
     }
-
 }

@@ -1,39 +1,30 @@
 public class Human {
     int weight;
     String name;
-    boolean gender;
-    public Human (int weight, String name, boolean gender){
+    String gender;
+    public Human (int weight, String name, String gender){
         this.weight = weight;
         this.name = name;
         this.gender = gender;
     }
-    public boolean isMale(){
-        if(this.gender){
-            return true;
-        }else {
-            return false;
-        }
-    }
-
-    public void setGender(boolean gender) {
+    public void setGender(String gender) {
         this.gender = gender;
-    } public boolean checkApple(Apple){
-        return Apple.isEmpty;
     }
-    public void eatApple(Apple){
-        if (Apple.getWeight()>0){
-            Apple.decrease();
-            this.weight++;
-
-        }else {
-            System.out.println("Táo đã ăn hết");
-        }
+    public String getGender(){
+        return gender;
     }
-    public void say(String){
-
+    public boolean checkApple(Apple apple){
+      return apple.isEmpty();
+    }
+    public void eat(Apple apple){
+        apple.decrease();
+        this.weight++;
+    }
+    public void say( String something){
+        System.out.println(something);
     }
     public String getName(){
-
+        return name;
     }
 
     public void setName(String name) {
@@ -48,3 +39,4 @@ public class Human {
         this.weight = weight;
     }
 }
+
