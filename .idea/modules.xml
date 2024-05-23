@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/AdamvaEva/AdamvaEva.iml" filepath="$PROJECT_DIR$/AdamvaEva/AdamvaEva.iml" />
       <module fileurl="file://$PROJECT_DIR$/BatteryAndFlashLamp/BatteryAndFlashLamp.iml" filepath="$PROJECT_DIR$/BatteryAndFlashLamp/BatteryAndFlashLamp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Buoi6.iml" filepath="$PROJECT_DIR$/.idea/Buoi6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Phone/Phone.iml" filepath="$PROJECT_DIR$/Phone/Phone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Product/Product.iml" filepath="$PROJECT_DIR$/Product/Product.iml" />
       <module fileurl="file://$PROJECT_DIR$/SwitchAndBuld/SwitchAndBuld.iml" filepath="$PROJECT_DIR$/SwitchAndBuld/SwitchAndBuld.iml" />
     </modules>
   </component>
